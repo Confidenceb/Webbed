@@ -1,0 +1,73 @@
+.home-page {
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+  padding: 128px 0;
+
+  text-align: center;
+}
+
+.hero-welcome {
+  color: rgba(0, 123, 255, 1);
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 36px;
+}
+
+.hero-title {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.hero-title em {
+  color: #fff;
+  font-size: 64px;
+  font-style: italic;
+  font-family: serif;
+  font-weight: 400;
+  margin-bottom: 44px;
+  text-shadow: 0 4px 8px #191717;
+}
+
+.hero-btn-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.hero-btn {
+  font-size: 24px;
+  border-radius: 24px;
+  font-weight: 700;
+  box-shadow: 0 4px 18px #1994ff55;
+  border: none;
+  padding: 12px 48px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hero-btn.white {
+  background: #fff;
+  color: #1994ff;
+  border: 2px solid #1581d6;
+  box-shadow: 0 2px 8px #1994ff25;
+}
+
+.hero-btn.blue {
+  background: #1994ff;
+  color: #fff;
+}
+
+.hero-btn.blue:hover {
+  background: #1581d6;
+}

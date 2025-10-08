@@ -1,0 +1,91 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 46px 10px 36px;
+  background: transparent;
+  position: relative;
+  z-index: 100;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-logo {
+  width: 40px;
+  cursor: pointer;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title img {
+  color: #1994ff;
+  width: 96px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.navbar-link {
+  color: #1b72e9;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-right: 14px;
+  font-weight: 500;
+  padding: 3px 0;
+  position: relative;
+
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.navbar-search,
+.navbar-settings,
+.icon {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.navbar-btn {
+  background: #1994ff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 7px 22px;
+  margin: 0 3px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 3px 8px #1994ff44;
+  transition: background 0.2s;
+
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.navbar-btn.secondary {
+  background: #17b3fd;
+}
+.navbar-btn:hover {
+  background: #176fd6;
+}

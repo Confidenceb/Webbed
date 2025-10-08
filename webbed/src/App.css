@@ -1,0 +1,41 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #07080b; /* dark base */
+  position: relative;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+/* --- 🔵 LEFT and RIGHT glow circles --- */
+.glow-circle {
+  position: fixed;
+  top: 50%;
+  width: 70vw;
+  height: 80vh;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgb(0, 123, 255) 0%,
+    rgba(0, 123, 255, 0.4) 30%,
+    transparent 70%
+  );
+  filter: blur(100px);
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+/* Left glow */
+.glow-circle.left {
+  left: -400px;
+}
+
+/* Right glow */
+.glow-circle.right {
+  right: -400px;
+}
